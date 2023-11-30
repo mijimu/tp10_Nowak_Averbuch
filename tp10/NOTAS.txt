@@ -1,0 +1,26 @@
+Haremos un Portfolio:
+
+- Debe tener las siguientes rutas (utilizando React-Router): Home, Info de ustedes, Mis Creaciones, favoritos y cualquiera que crean adicional. Además, un layout con header, menú y footer.
+
+- Deben crear un componente de Contacto, el cual deberá estar ubicado en el footer. Usen un form de bootstrap, pero si quieren algo más pueden usar https://formik.org/ o https://react-hook-form.com/get-started . Tambien, agregar info a las redes sociales que desen como su perfil de LinkedIn.
+
+- Las creaciones se deben obtener mediante axios pegandole a un JSON de objetos guardado en un archivo local, donde cada uno tenga info al respecto: titulo, descripcion, imagenes, fecha, url, entre otros.
+
+- En la Home, deberemos ver 6 creaciones, que podrian ser los "más destacados", elegidas por ustedes, y que pueda hacer click en alguno, y me permita agregarlo a favoritos.
+
+- En la vista de Mis Creaciones, utilizando los mismos componentes, mostrar todas las creaciones que haya.
+
+- En el detalle de Mis Creaciones, mostrar el detalle de la creación, y la posibilidad de agregar o quitarlo de favoritos. En caso de que no este en favoritos, no mostrar el quitar, caso contrario si.
+
+- Que los favoritos se puedan guardar en localStorage, para el caso que al cliente cierra y vuelve a abrir seguir teniendo lo agregado al mismo.
+
+- Poder ver, en el navbar sobre el icono de favoritos, ver con un Badge la cantidad de creaciones agregadas, ej: https://mui.com/material-ui/react-badge/, a traves de React Context.
+
+- Cualquier adicional, con criterio, suma puntos.
+
+El diseño debe ser similar a un sitio, de los que vemos en internet, ej: https://startbootstrap.com/previews/personal y https://startbootstrap.com/previews/freelancer
+
+DONE/COMMENTS:
+- empezamos con layout
+- avances en mis creaciones
+- SEGUIR con lo de favoritos, estan las imagenes, quiero hacer un if dependiendo el estado de json (lo mismo que con el carrito y detalle producto del otro tp)

@@ -1,0 +1,57 @@
+.containerFoto {
+    position: relative;
+    width: 50%;
+    display:contents;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.image2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;    margin-left: 25%;
+    left: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 0;    
+    border-radius: 50%;
+    transition: .5s ease;
+    background-color: #1e30f3;
+    
+}
+
+.containerFoto:hover .overlay {
+    opacity: 0.5;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+h4{color: #1e30f3}
+.cardDestacada{
+    background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    height: 420px;
+}
+/*.containerCreaciones{
+    padding-bottom: 20px;
+}*/
+.pDestacada{
+    color: white;
+    font-size: large;
+    padding-top: 2%;
+}

@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "title": "Web para realizar Compras",
+        "description": "Página web online para comprar productos de un local y agregarlos al carrito.",
+        "images": [
+            "image1.jpg",
+            "image2.jpg"
+        ],
+        "date": "2023-9-15",
+        "url": "https://github.com/micanowak/Nowak_Averbuch_Compras.git",
+        "subject": "EFSI",
+        "favourite": false
+    },
+    {
+        "id": 2,
+        "title": "El impacto de la tecnología en la escuela",
+        "description": "Una tesina de 1000 palabras, tema a elección, desarrollando un dilema u opinión que se relacione con la tecnología e innovación.",
+        "images": "image5.jpg",
+        "date": "2023-11-01",
+        "url": "https://medium.com/@mijal_correo/cu%C3%A1l-es-el-impacto-de-la-tecnolog%C3%ADa-en-el-aula-ae87427e7dd8",
+        "subject":"TEI - Tecnología Exponenciales e Innovación",
+        "favourite": false
+    },
+    {
+        "id": 3,
+        "title": "Compitiendo en la cancha y la facultad: La exigencia de ser jugadora estudiante.",
+        "description": "Una crónica, tema a elección de las escritoras, desarrollando un dilema de nuestra rutina.",
+        "images": "image6.jpg",
+        "date": "2023-11-05",
+        "url": "https://docs.google.com/document/d/1pLse0KuhJinoaRiNcJuuAyL4u9Qay5q8vE0g8emVDBI/edit?usp=sharing",
+        "subject":"Lengua",
+        "favourite": false
+    },
+    {
+        "id": 4,
+        "title": "App de Firex para la consultora de eventos ArgTeam",
+        "description": "Una app realizada por las alumnas con React Native para lograr que el cliente ArgTeam simplifique su trabajo organizando eventos.",
+        "images": "image6.jpg",
+        "date": "2023",
+        "url": "https://github.com/micanowak/ProyectoFinal_Averbuch_Nowak.git",
+        "subject":"Proyecto Final - Informática",
+        "favorite": false
+    },
+    {
+        "id": 5,
+        "title": "Lo adictivo de las redes sociales",
+        "description": "Una tesina de 1000 palabras, tema a elección, desarrollando un dilema u opinión que se relacione con la tecnología e innovación.",
+        "images": "image6.jpg",
+        "date": "2023",
+        "url": "https://medium.com/@47297838/lo-adictivo-de-las-redes-sociales-d3af993efb30",
+        "subject":"TEI - Tecnología Exponenciales e Innovación",
+        "favorite": false
+    }
+]
