@@ -5,12 +5,23 @@ import Favoritos from "./screens/Favoritos/Favoritos";
 import InfoNuestra from "./screens/InfoNuestra/InfoNuestra";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './screens/Layout/Layout';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import CreacionesContext from './context/Context';
+import axios from 'axios';
 
 function App() {
-  const [listaFavoritos, setListaFavoritos] = useState([]);
+  const [listaFavoritos, setListaFavoritos] = useState(JSON.parse(localStorage.getItem('listaCreaciones')) ||[]);
   const [listaCreaciones, setlistaCreaciones] = useState([]);
+
+  useEffect(() => {
+    axios.get('/Creaciones.json')
+      .then(response => {
+        setlistaCreaciones(response.data);
+      })
+      .catch(error => {
+        console.error('Error', error);
+      });
+  }, []);
 
   return (
     <div className="App">
